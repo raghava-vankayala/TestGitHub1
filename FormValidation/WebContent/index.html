@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javaScript" src="Validate.js"></script>
+<title>Form Validation</title>
+</head>
+<body>
+<center>
+<h1 style="color:red;font-family:jokerman"> Registration Form Validation </h1>
+
+<form action="ValidateUrl"  onsubmit="return validate(this)"  method="post">
+	User Name:<input type="text" name="uname"/><span id="uerr"></span><br><br>
+	&nbsp;&nbsp;Password:<input type="text" name="upwd"/><span id="uperr"></span><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Age:<input type="text" name="page"/><span id="aerr"></span>
+	<input type="hidden" value="no" name="flag"/><br>
+	<input type="submit" value="Form Validate"/>
+	
+</form>
+</center>
+</body>
+</html>
